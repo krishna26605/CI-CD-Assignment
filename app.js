@@ -8,7 +8,7 @@ app.use(express.json());
 
 // Routes
 app.get('/', (req, res) => {
-  res.send('Welcome to the Simple Node App🚀 Thankyou...!');
+  res.send('Welcome to the Simple Node App🚀 ');
 });
 
 app.get('/about', (req, res) => {
@@ -23,6 +23,7 @@ app.get('/status', (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
+
 
 
 
